@@ -1,0 +1,59 @@
+Conceptual Exercise
+Answer the following questions below:
+
+What are important differences between Python and JavaScript?
+
+The diffrence between Javascript and Python is one as more block scope restrictions and python dose not. Also python is similar to shorthand of Javascript, while Javascript is capable of finding complex solutions
+  
+pythons ddcode allows for the consumer to reach a conclusion while not having as many complications.
+
+Given a dictionary like {"a": 1, "b": 2}: , list two ways you
+
+my_dict = {"a": 1, "b": 2}
+
+keys = ["a", "b"]
+
+values = [1,2]
+
+my_dict = {keys[i]: values[i] for i in range(len(keys))}
+
+can try to get a missing key (like "c") without your programming crashing. as long as its not an infinity loop its possible.
+
+What is a unit test?
+
+Unit test is when a coder is tested on his/her skills when it comes to specific environemnets when coding, discovering how a coder handles each environemnt seperatly.
+
+What is an integration test?
+
+intergration is tested on how things communcate with eachother and give the expected output!
+
+What is the role of web application framework, like Flask?
+
+the role of web application framework is to better software enginers life on the front end and back end.
+
+without roles of flask it would be difficult to work with large sets of data and keep it secure with alot of foot traffic and makes sure that you dont have so much code the website dose not crashe every five seconds.
+
+You can pass information to Flask either as a parameter in a route URL (like '/foods/pretzel') or using a URL query param (like 'foods?type=pretzel'). How might you choose which one is a better fit for an application? Through learning this recently, it really depends. i perfer the route URL, i'm not sure how efficent that is when it comes to high volume of people on the website. But for the building proccess I think its a great time savor.
+
+How do you collect data from a URL placeholder parameter using Flask?
+
+Collect Data is efficient, your able to simply route the file/cloud you are looking to pull information from and create a element in order organize the infomration you are attempting to pull.
+
+How do you collect data from the query string using Flask?
+
+Same concept, another URl except of just telling the machine where your pulling information from you will end requesting the object its self. then its smooth sailing, Request - organize - logic - execute.
+
+How do you collect data from the body of the request using Flask?
+
+
+Collect Data from the body of the Flask is kinda cool becasue you can decided furthor actions with the infomration, for example the infomration could stay for one day, or even till a specific calander date.
+
+What is a cookie and what kinds of things are they commonly used for? Also no matter the langauge, its the machine pulls raw data from the body which you are attempting to pull from. So their is no issue converting that to another language.
+
+What is the session object in Flask?
+
+Session object is the duration of time you are holding infomration from the consumer using the plateform.
+
+Their are two main types of sessions, Cookies is untill the tab closes and Server is would be untill a certain date. Similar to this course.
+
+What does Flask's jsonify() do? I mentioned this early in my previous answers, but it is the ability to convert a single language - single language, This allows you to request data from html, javascript, txt files and get raw data back which makes it capable to CONVERT(in this case jsonify()) Python - Javascript.
